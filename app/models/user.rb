@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :microposts 
+  
   attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
