@@ -21,3 +21,9 @@
 
 # Ignore uploaded test images.
 /public/uploads
+
+# Ignore secretys.yml
+/config/secrets.yml
+
+# Ignore application configuration
+/config/application.yml
